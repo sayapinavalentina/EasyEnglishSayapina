@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3cff661c-f0ee-438a-8483-d8aecd17511d": {
+      "ProjectGuid": "3cff661c-f0ee-438a-8483-d8aecd17511d",
+      "DisplayName": "EasyEnglishSayapina",
+      "ColorIndex": 0
+    },
+    "dd9ba514-0a7d-47b7-9233-81b50a5f83e9": {
+      "ProjectGuid": "dd9ba514-0a7d-47b7-9233-81b50a5f83e9",
+      "DisplayName": "AppDuolingoClone.Android",
+      "ColorIndex": 1
+    },
+    "0af39808-3357-4992-b579-568be6d82f71": {
+      "ProjectGuid": "0af39808-3357-4992-b579-568be6d82f71",
+      "DisplayName": "AppDuolingoClone.iOS",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

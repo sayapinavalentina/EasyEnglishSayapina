@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="EasyEnglishSayapina.Views.TitleViews.StoreTitleView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentView.Content>
+        <Grid Margin="{OnPlatform Android='0,0,15,0', iOS='0'}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="1"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                Text="Грамматика"
+                TextColor="#9100EA"
+                VerticalTextAlignment="Center" />
+
+            <StackLayout Grid.Column="2" Orientation="Horizontal">
+                <Image HeightRequest="40" Source="navbar_diamond.png" />
+
+                <Label
+                    FontSize="Large"
+                    Text="204"
+                    TextColor="#9100EA"
+                    VerticalTextAlignment="Center" />
+            </StackLayout>
+        </Grid>
+    </ContentView.Content>
+</ContentView>
